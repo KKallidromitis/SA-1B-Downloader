@@ -23,5 +23,6 @@ The download.py script takes the following command-line arguments:
     --processes: The number of processes to use for downloading and extracting files (default: 2)
     --input_file: The path to the input file containing file names and URLs (default: 'sa1b.txt')
     --raw_dir: The directory to store downloaded files (default: 'raw')
-    --data_dir: The directory to store extracted files (default: 'images')
+    --images_dir: The directory to store extracted jpg files (default: 'images')
+    --masks_dir: The directory to store extracted json files (default: 'annotations')
     
