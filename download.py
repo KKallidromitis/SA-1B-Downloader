@@ -28,7 +28,7 @@ def download_and_extract(args):
 # Parse command-line arguments
 parser = argparse.ArgumentParser(description='Download and extract files.')
 parser.add_argument('--processes', type=int, default=4, help='Number of processes to use for downloading and extracting files.')
-parser.add_argument('--input_file', type=str, default='sa1b.txt', help='Path to the input file containing file names and URLs.')
+parser.add_argument('--input_file', type=str, default='sa1b_links.txt', help='Path to the input file containing file names and URLs.')
 parser.add_argument('--raw_dir', type=str, default='raw', help='Directory to store downloaded files.')
 parser.add_argument('--data_dir', type=str, default='images', help='Directory to store extracted files.')
 args = parser.parse_args()
