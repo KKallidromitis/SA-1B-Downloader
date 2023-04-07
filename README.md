@@ -15,7 +15,7 @@ pip install requests
 The download.py script uses the [sa1b_links.txt](https://ai.facebook.com/datasets/segment-anything-downloads/) file by default as the input file for downloading and extracting images:
 
 ```
-python download.py --processes 4 --input_file sa1b.txt --raw_dir raw --data_dir images
+python download.py --processes 4 --input_file sa1b_links.txt --raw_dir raw --images_dir images --masks_dir annotations
 ```
 
 The download.py script takes the following command-line arguments:
