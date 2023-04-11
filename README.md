@@ -25,4 +25,5 @@ The download.py script takes the following command-line arguments:
     --raw_dir: The directory to store downloaded files (default: 'raw')
     --images_dir: The directory to store extracted jpg files (default: 'images')
     --masks_dir: The directory to store extracted json files (default: 'annotations')
+    --skip_existing: Skip extraction if the file has already been extracted (default: False)
     
